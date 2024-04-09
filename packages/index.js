@@ -1,7 +1,9 @@
 import QualitySupervision from './quality/index'
+import WeldingRail from './weldingRail/index'
 
 const components = [
-  QualitySupervision
+  QualitySupervision,
+  WeldingRail
 ]
 
 const install = function (Vue) {
